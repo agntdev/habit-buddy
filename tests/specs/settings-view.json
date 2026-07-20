@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Settings",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Access timezone, notification, and milestone preferences"
+            }
+          }
+        ],
+        "send": {
+          "callback": "settings:view"
+        }
+      }
+    ]
+  }
+]
